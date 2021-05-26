@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		EFB26A03265EAD1800A53333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26A02265EAD1800A53333 /* AppDelegate.swift */; };
 		EFB26A05265EAD1800A53333 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26A04265EAD1800A53333 /* SceneDelegate.swift */; };
-		EFB26A07265EAD1800A53333 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26A06265EAD1800A53333 /* ViewController.swift */; };
+		EFB26A07265EAD1800A53333 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26A06265EAD1800A53333 /* GameViewController.swift */; };
 		EFB26A0A265EAD1800A53333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB26A08265EAD1800A53333 /* Main.storyboard */; };
 		EFB26A0C265EAD1A00A53333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB26A0B265EAD1A00A53333 /* Assets.xcassets */; };
 		EFB26A0F265EAD1A00A53333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB26A0D265EAD1A00A53333 /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		EFB269FF265EAD1800A53333 /* Add 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Add 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB26A02265EAD1800A53333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFB26A04265EAD1800A53333 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFB26A06265EAD1800A53333 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFB26A06265EAD1800A53333 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		EFB26A09265EAD1800A53333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFB26A0B265EAD1A00A53333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFB26A0E265EAD1A00A53333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,7 @@
 		EFB26A20265EAD1A00A53333 /* Add 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Add 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB26A24265EAD1A00A53333 /* Add_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_1UITests.swift; sourceTree = "<group>"; };
 		EFB26A26265EAD1A00A53333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB26A32265EB12C00A53333 /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HVD_Comic_Serif_Pro.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +102,12 @@
 			children = (
 				EFB26A02265EAD1800A53333 /* AppDelegate.swift */,
 				EFB26A04265EAD1800A53333 /* SceneDelegate.swift */,
-				EFB26A06265EAD1800A53333 /* ViewController.swift */,
+				EFB26A06265EAD1800A53333 /* GameViewController.swift */,
 				EFB26A08265EAD1800A53333 /* Main.storyboard */,
 				EFB26A0B265EAD1A00A53333 /* Assets.xcassets */,
 				EFB26A0D265EAD1A00A53333 /* LaunchScreen.storyboard */,
 				EFB26A10265EAD1A00A53333 /* Info.plist */,
+				EFB26A32265EB12C00A53333 /* HVD_Comic_Serif_Pro.otf */,
 			);
 			path = "Add 1";
 			sourceTree = "<group>";
@@ -258,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB26A07265EAD1800A53333 /* ViewController.swift in Sources */,
+				EFB26A07265EAD1800A53333 /* GameViewController.swift in Sources */,
 				EFB26A03265EAD1800A53333 /* AppDelegate.swift in Sources */,
 				EFB26A05265EAD1800A53333 /* SceneDelegate.swift in Sources */,
 			);
